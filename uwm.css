@@ -1,5 +1,9 @@
 html {
-    background-color: azure;
+    background-color: white;
+}
+
+body {
+    margin: 0;
 }
 
 .wrapper {
@@ -9,20 +13,36 @@ html {
 
 .site-header {
     background-color: plum;
+    padding: 15px; 
+    border-bottom: 15px solid white;
 }
 
 .site-main {
-    background-color: yellow;
+    background-color: rgb(255, 255, 107);
+    padding: 15px; 
 }
 
 .article-section {
     background-color: gold;
+    padding: 15px;
+    border-bottom: 10px solid rgb(255, 255, 107);
 }
 
 .callout {
+    border-top: 15px solid white;
     background-color: rgb(255, 189, 211);
+    color:rgb(165, 42, 132);
+    font-style: italic;
+    padding: 10px;
 }
 
 .site-footer {
+    border-top: 15px solid white;
     background-color: aquamarine;
+    padding: 10px;
+}
+
+.address {
+    border-top: 3px solid black;
+    padding-top: 10px;
 }
