@@ -1,0 +1,23 @@
+html {
+    background-color: rgb(213, 255, 244);
+    font-family: "Noto Serif Display", serif;
+}
+
+ul {
+    margin: 0;
+}
+
+.nav-color {
+    background-color: #fb9dbc;
+    padding: 10px;
+}
+
+.main {
+    background-color: rgb(109, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.site-footer {
+    padding: 10px;
+}
